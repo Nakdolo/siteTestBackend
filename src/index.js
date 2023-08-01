@@ -8,7 +8,7 @@ import authCheck from "../utils/authCheck.js";
 
 mongoose
   .connect(
-    "mongodb+srv://darhankusajn:h2vcvoA3Aj5gPRQE@cluster.mtnhmsh.mongodb.net/login?retryWrites=true&w=majority"
+    "mongodb+srv://:h2vcvoA3Aj5gPRQE@cluster.mtnhmsh.mongodb.net/login?retryWrites=true&w=majority"
   )
   .then(() => console.log("DB ok"))
   .catch((err) => console.log("DB err", err));
